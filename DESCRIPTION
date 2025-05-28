@@ -1,0 +1,19 @@
+Package: GenePackage
+Title: A Package to classify the genes into different gene types
+Version: 1.0.0
+Authors@R: 
+    person("Sabrina Pervin", "Abu", , "sabrinapervin.abu@mail.polimi.it", role = c("aut", "cre"))
+Description: Provides a set of S4 classes and methods for representing different types of genes (e.g., protein-coding genes, lncRNA genes, microRNA genes) and their associated data,including gene structure, sequences, and annotations.
+Depends: R(>= 3.6)
+Imports: GenomicRanges, methods
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, BiocManager
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2024-08-17 17:53:55 UTC; sabrinaabu
+Author: Sabrina Pervin Abu [aut, cre]
+Maintainer: Sabrina Pervin Abu <sabrinapervin.abu@mail.polimi.it>

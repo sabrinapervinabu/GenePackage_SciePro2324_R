@@ -5,7 +5,7 @@
 ---
 
 ## Installation
-To install from a local `.tar.gz` source:
+To install from a local `.tar` source:
 ```r
 install.packages("GenePackage_1.0.0.tar", repos = NULL, type = "source")
 # Load the package
